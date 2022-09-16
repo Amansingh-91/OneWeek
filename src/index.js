@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import BookList from "./components/BookList/BookList";
 import ErrorExample from "./components/useStateHook/ErrorExample";
 import RemoveError from "./components/useStateHook/RemoveError";
+import Todo from "./components/useStateHook/TodoList/Todo";
+import Counter from "./components/useStateHook/Counter/Counter";
+import FirstExample from "./components/useEffectHook/FirstExample";
 // CSS Import
 import "./index.css";
 // setup Vars
@@ -65,4 +68,4 @@ import "./index.css";
 //   return <h6>{author}</h6>;
 // };
 const Root = ReactDOM.createRoot(document.getElementById("root"));
-Root.render(<RemoveError />);
+Root.render(<FirstExample />);

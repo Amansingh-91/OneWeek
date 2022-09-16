@@ -3,6 +3,8 @@ import { useState } from "react";
 const RemoveError = () => {
   //   console.log(useState);
   const [title, setTitle] = useState("Random Title");
+
+  const [name, setName] = useState("Aman");
   return (
     <div>
       <h1>{title}</h1>
@@ -20,6 +22,8 @@ const RemoveError = () => {
       >
         change title
       </button>
+      <h3>{name}</h3>
+      {console.log("at every refresh")}
     </div>
   );
 };
